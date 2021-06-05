@@ -1,0 +1,10 @@
+1.創建一個新的repository
+2.在本機創建資料夾 (存放欲上傳之檔案)
+3.使用終端機進入資料夾並輸入以下指令：
+a.git init (初始化這個目錄，讓 Git 對這個目錄開始進行版控)
+b.將要上傳之檔案新增至資料夾
+c.git status (查詢現在這個目錄的「狀態」)
+d.git add . (把檔案加到暫存區)
+e.git commit -m "第一次提交" (說明這次 Commit 做了什麼事)
+f.git remote add origin https://github.com/Andy0909/Git-.git (此處可以使用 HTTPS 或 SSH 兩種方法連接 Git)
+g.git push origin master (將檔案傳到 Github 的 master 節點)
